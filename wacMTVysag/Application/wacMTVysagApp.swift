@@ -11,7 +11,8 @@ import SwiftUI
 struct wacMTVysagApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            bottomTabView()
+          // homeView()
         }
     }
 }

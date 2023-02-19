@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0EC23D29A15DE700C0C9A1 /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0EC23C29A15DE700C0C9A1 /* homeViewModel.swift */; };
+		2A0EC23F29A15FEA00C0C9A1 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0EC23E29A15FEA00C0C9A1 /* homeView.swift */; };
+		2AA7B82729A188B7004E2169 /* bottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7B82629A188B7004E2169 /* bottomTabView.swift */; };
+		2AA7B82929A18938004E2169 /* categoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7B82829A18938004E2169 /* categoriesView.swift */; };
+		2AA7B82B29A18AC3004E2169 /* offersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7B82A29A18AC3004E2169 /* offersView.swift */; };
+		2AA7B82D29A18AD5004E2169 /* cartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7B82C29A18AD5004E2169 /* cartView.swift */; };
+		2AA7B82F29A18AE5004E2169 /* accountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7B82E29A18AE5004E2169 /* accountView.swift */; };
 		2AB61FEF299FCED6001F87D0 /* wacMTVysagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB61FEE299FCED6001F87D0 /* wacMTVysagApp.swift */; };
-		2AB61FF1299FCED6001F87D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB61FF0299FCED6001F87D0 /* ContentView.swift */; };
 		2AB61FF3299FCEDB001F87D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB61FF2299FCEDB001F87D0 /* Assets.xcassets */; };
 		2AB61FF6299FCEDB001F87D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB61FF5299FCEDB001F87D0 /* Preview Assets.xcassets */; };
+		2AB62000299FCFA3001F87D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB61FFF299FCFA3001F87D0 /* Home.swift */; };
+		2AB6200929A0100F001F87D0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6200829A0100F001F87D0 /* APIManager.swift */; };
+		2AB6200B29A010EC001F87D0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6200A29A010EC001F87D0 /* Constant.swift */; };
+		2AB6200F29A0D95D001F87D0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6200E29A0D95D001F87D0 /* ColorExtension.swift */; };
+		EDB6B5016F93C816E741BC11 /* Pods_wacMTVysag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B44C58D628076C44F3C9FF4 /* Pods_wacMTVysag.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A0EC23C29A15DE700C0C9A1 /* homeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewModel.swift; sourceTree = "<group>"; };
+		2A0EC23E29A15FEA00C0C9A1 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		2AA7B82629A188B7004E2169 /* bottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomTabView.swift; sourceTree = "<group>"; };
+		2AA7B82829A18938004E2169 /* categoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesView.swift; sourceTree = "<group>"; };
+		2AA7B82A29A18AC3004E2169 /* offersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offersView.swift; sourceTree = "<group>"; };
+		2AA7B82C29A18AD5004E2169 /* cartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartView.swift; sourceTree = "<group>"; };
+		2AA7B82E29A18AE5004E2169 /* accountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountView.swift; sourceTree = "<group>"; };
 		2AB61FEB299FCED6001F87D0 /* wacMTVysag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wacMTVysag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB61FEE299FCED6001F87D0 /* wacMTVysagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wacMTVysagApp.swift; sourceTree = "<group>"; };
-		2AB61FF0299FCED6001F87D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AB61FF2299FCEDB001F87D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AB61FF5299FCEDB001F87D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AB61FFF299FCFA3001F87D0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2AB6200829A0100F001F87D0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2AB6200A29A010EC001F87D0 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2AB6200E29A0D95D001F87D0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2B44C58D628076C44F3C9FF4 /* Pods_wacMTVysag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wacMTVysag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4408A56A63EB530C47E34F /* Pods-wacMTVysag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wacMTVysag.release.xcconfig"; path = "Target Support Files/Pods-wacMTVysag/Pods-wacMTVysag.release.xcconfig"; sourceTree = "<group>"; };
+		C292FADAD1CAADD0A775DF7B /* Pods-wacMTVysag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wacMTVysag.debug.xcconfig"; path = "Target Support Files/Pods-wacMTVysag/Pods-wacMTVysag.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB6B5016F93C816E741BC11 /* Pods_wacMTVysag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +62,8 @@
 			children = (
 				2AB61FED299FCED6001F87D0 /* wacMTVysag */,
 				2AB61FEC299FCED6001F87D0 /* Products */,
+				C6A27DCC1EC214EEF5E86163 /* Pods */,
+				58DF53322562A6BD72423296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +78,12 @@
 		2AB61FED299FCED6001F87D0 /* wacMTVysag */ = {
 			isa = PBXGroup;
 			children = (
-				2AB61FEE299FCED6001F87D0 /* wacMTVysagApp.swift */,
-				2AB61FF0299FCED6001F87D0 /* ContentView.swift */,
-				2AB61FF2299FCEDB001F87D0 /* Assets.xcassets */,
+				2AB6200529A00EC6001F87D0 /* Application */,
+				2AB6200129A00CD0001F87D0 /* Constant */,
+				2AB6200229A00D81001F87D0 /* Extensions */,
+				2AB6200329A00DA0001F87D0 /* Helper */,
+				2AB6200429A00DCC001F87D0 /* Screens */,
+				2AB6200629A00F0E001F87D0 /* Resources */,
 				2AB61FF4299FCEDB001F87D0 /* Preview Content */,
 			);
 			path = wacMTVysag;
@@ -67,6 +97,110 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2AB61FFC299FCF15001F87D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AB61FFF299FCFA3001F87D0 /* Home.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AB61FFD299FCF25001F87D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A0EC23E29A15FEA00C0C9A1 /* homeView.swift */,
+				2AA7B82629A188B7004E2169 /* bottomTabView.swift */,
+				2AA7B82829A18938004E2169 /* categoriesView.swift */,
+				2AA7B82A29A18AC3004E2169 /* offersView.swift */,
+				2AA7B82C29A18AD5004E2169 /* cartView.swift */,
+				2AA7B82E29A18AE5004E2169 /* accountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AB61FFE299FCF31001F87D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A0EC23C29A15DE700C0C9A1 /* homeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2AB6200129A00CD0001F87D0 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6200A29A010EC001F87D0 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2AB6200229A00D81001F87D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6200E29A0D95D001F87D0 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AB6200329A00DA0001F87D0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6200829A0100F001F87D0 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2AB6200429A00DCC001F87D0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6200729A00F83001F87D0 /* HOME */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2AB6200529A00EC6001F87D0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2AB61FEE299FCED6001F87D0 /* wacMTVysagApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2AB6200629A00F0E001F87D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AB61FF2299FCEDB001F87D0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2AB6200729A00F83001F87D0 /* HOME */ = {
+			isa = PBXGroup;
+			children = (
+				2AB61FFC299FCF15001F87D0 /* Model */,
+				2AB61FFD299FCF25001F87D0 /* View */,
+				2AB61FFE299FCF31001F87D0 /* ViewModel */,
+			);
+			path = HOME;
+			sourceTree = "<group>";
+		};
+		58DF53322562A6BD72423296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B44C58D628076C44F3C9FF4 /* Pods_wacMTVysag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A27DCC1EC214EEF5E86163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C292FADAD1CAADD0A775DF7B /* Pods-wacMTVysag.debug.xcconfig */,
+				9B4408A56A63EB530C47E34F /* Pods-wacMTVysag.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AB61FF9299FCEDB001F87D0 /* Build configuration list for PBXNativeTarget "wacMTVysag" */;
 			buildPhases = (
+				220728D159E46170C4F02BB6 /* [CP] Check Pods Manifest.lock */,
 				2AB61FE7299FCED6001F87D0 /* Sources */,
 				2AB61FE8299FCED6001F87D0 /* Frameworks */,
 				2AB61FE9299FCED6001F87D0 /* Resources */,
+				E84A3CC40FCB80CD3ECF9B52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +268,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		220728D159E46170C4F02BB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wacMTVysag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84A3CC40FCB80CD3ECF9B52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wacMTVysag/Pods-wacMTVysag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wacMTVysag/Pods-wacMTVysag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wacMTVysag/Pods-wacMTVysag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AB61FE7299FCED6001F87D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB61FF1299FCED6001F87D0 /* ContentView.swift in Sources */,
+				2AA7B82729A188B7004E2169 /* bottomTabView.swift in Sources */,
+				2AB6200929A0100F001F87D0 /* APIManager.swift in Sources */,
+				2AA7B82D29A18AD5004E2169 /* cartView.swift in Sources */,
+				2A0EC23F29A15FEA00C0C9A1 /* homeView.swift in Sources */,
+				2AB6200B29A010EC001F87D0 /* Constant.swift in Sources */,
+				2AA7B82F29A18AE5004E2169 /* accountView.swift in Sources */,
+				2A0EC23D29A15DE700C0C9A1 /* homeViewModel.swift in Sources */,
+				2AA7B82929A18938004E2169 /* categoriesView.swift in Sources */,
+				2AB62000299FCFA3001F87D0 /* Home.swift in Sources */,
 				2AB61FEF299FCED6001F87D0 /* wacMTVysagApp.swift in Sources */,
+				2AB6200F29A0D95D001F87D0 /* ColorExtension.swift in Sources */,
+				2AA7B82B29A18AC3004E2169 /* offersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +449,7 @@
 		};
 		2AB61FFA299FCEDB001F87D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C292FADAD1CAADD0A775DF7B /* Pods-wacMTVysag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +479,7 @@
 		};
 		2AB61FFB299FCEDB001F87D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4408A56A63EB530C47E34F /* Pods-wacMTVysag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
